@@ -1,0 +1,102 @@
+:root {
+  --letterCOlorHeader: #858482;
+  --letterGray: #898886;
+  --backColor: #f3ede5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: var(--backColor);
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-menu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn {
+  margin: 2vh 2vw 2vh 0;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-signin {
+  color: #898886;
+  padding-bottom: 5%;
+}
+
+.btn-click {
+  background-color: #133416;
+  border-radius: 5px;
+  color: #fcfcfc;
+  padding: 8% 10%;
+}
+
+.drop-down {
+  position: relative;
+}
+
+.drop-down ul{
+  display: none;
+}
+
+.drop-down a li:hover ul li:hover{
+  display: block; 
+}
+
+.drop-down li:hover ul{
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  white-space: pre;
+  width: 200px;
+  position: absolute;
+  line-height: 4px;
+}
+
+.drop-down li ul li {
+  background-color: #fff;
+  flex-direction: row;
+  margin-top: 5%;
+  padding: 4%;
+}
+
+.grid-formatted {
+  padding: 3% 0 0 8%;
+}
+
+header, ul {
+  color: #898886;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.icon-dropdpwn {
+  background-color: #fff;
+  margin-right: 2%;
+}
+
+li {
+  color: var(--letterCOlorHeader);
+  margin-right: 2vw;
+  list-style: none;
+  flex-direction: row;
+}
+
+ul {
+  justify-content: center;
+}

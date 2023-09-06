@@ -1,0 +1,24 @@
+.grid-footer, .grid-bland {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.grid-bland {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid-footer p {
+  color: var(--letterGray);
+  margin-bottom: -40px;
+}
+
+.grid-footer img {
+  margin-right: 3%;
+}
+
+
+
