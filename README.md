@@ -1,16 +1,23 @@
 
-# Desafio da plataforma Codewell - Plataforma Ondeck 👋
+# Desafio - Plataforma Ondeck 👋
 - Fazer página inicial da plataforma de video conferência
-- Link do desafio https://www.codewell.cc/challenges/javascript30-navbar--623f19001fa95910c7bf998e
 
-# Foram adicionados as telas no projeto * :
-- Sign in 
-- Sign up
+# Foram adicionados as telas no projeto :
+- Home page
+- Sign in (Não tem no desafio)
+- Sign up (Não tem no desafio)
 
-*Não tem no desafio
-  
-# About Codewell
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+# Link da página web
+- https://angelica-shigematsu.github.io/desafio-codewell-javascript30navbar/
 
-Free or paid, all templates are high quality and will make great portfolio pieces
+# Link do código back
+- https://github.com/angelica-shigematsu/api-javascript-node
+
+# Como usar:
+No terminal digite: </br>
+``` npm run start ```
+
+# Desenvolvido por:
+- Angélica Shigematsu
+
